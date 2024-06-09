@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASHIFY</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-ojRD24s1HqOn7p5OzkBbF8Fhij8bTgHauu95O5R9bmFtjCj5C3Xo3x52HlsflTgFgDIkumrdc2sNDPPG2Fw+ag=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <style>
+    body {
+      height: 300vh;
+    }
+    .phones-types {
+      display: flex;
+      height: 15rem;
+      margin: 1rem 0 1rem 0;
+      padding: 1rem;
+    }
+
+    .button1 {
+      display: flex;
+      flex-direction: column;
+    }
+    .button2 {
+      display: flex;
+      flex-direction: column;
+      margin: 0 0 0 1rem;
+    }
+    .component {
+      display: flex;
+    }
+    .explore {
+      position: relative;
+      left: 20rem;
+      font-size: 1.2rem;
+      bottom: 2rem;
+    }
+    .explore-phones {
+      position: relative;
+      left: 20rem;
+    }
+    .product-images {
+      margin: 1rem;
+    }
+
+    h2:hover {
+      color: blue;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="./ASHIFY (1).png" alt="" />
+          </div>
+
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Account</a></li>
+              <li><a href="./phones.html">Phones</a></li>
+              <li><a href="#">TVS</a></li>
+              <li><a href="">Computing</a></li>
+              <li><a href="">AI</a></li>
+            </ul>
+          </nav>
+
+          <a href="#">
+            <img
+              src="../Shopping_cart_font_awesome.svg.png"
+              id="shoping-cart"
+              alt="cart"
+          /></a>
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+        </div>
+
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Give Your Workout <br />
+              A New Style
+            </h1>
+            <p>
+              Sucess isn't always about greatness. It's about consistency.
+              Consistent<br />hard work gains success. Greatness will come
+            </p>
+            <a href="" class="btn">Explore Now &#10147;</a>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="gadget-container">
+        <div class="phonedescription">
+          <h4 class="explore-phones">Explore phones</h4>
+          <div class="phones-types">
+            <div class="button1">
+              <button>ANDROID PHONES</button>
+              <button>NETWORK CARRIERS</button>
+              <button>PHONES BEST PICKS</button>
+              <button>PHONES DATEALS</button>
+              <button>PHONE NEWS</button>
+            </div>
+            <div class="button2">
+              <button>IPHONES</button>
+              <button>PHONES HOW-TOS</button>
+              <button>PHONES FACE-OFFS</button>
+              <button>PHONES REVIEWS</button>
+            </div>
+          </div>
+        </div>
+        <h3 class="explore">Latest About Phones</h3>
+        <div class="component">
+          <img
+            src="./img/TVS.png"
+            class="product-images"
+            alt="article"
+          />
+          <div class="contents">
+            <div class="description">
+              <h2>
+                <a href="#">
+                  Composite image between the Pixel 8a in the hand and the
+                  iPhone SE (2022) in the hand. I shot over 200 photos with the
+                  Pixel 8a vs iPhone SE — here’s the winner</a
+                >
+              </h2>
+              <h4>
+                <a href="#"
+                  >By John Velasco last updated 16 hours ago In this Pixel 8a vs
+                  iPhone SE photo shootout, we captured over 200 photos to
+                  determine which has the better camera performance for mobile
+                  photography.</a
+                >
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+            <a href="#"><img
+                src="./img/TVS (9).png"
+                class="product-images"
+                alt="article"
+              /></a>
+          <div class="contents">
+            <div class="description">
+              <h2>
+                <a href="#">
+                  Composite image between the Pixel 8a in the hand and the
+                  iPhone SE (2022) in the hand. I shot over 200 photos with the
+                  Pixel 8a vs iPhone SE — here’s the winner</a
+                >
+              </h2>
+              <h4>
+                <a href="#"
+                  >By John Velasco last updated 16 hours ago In this Pixel 8a vs
+                  iPhone SE photo shootout, we captured over 200 photos to
+                  determine which has the better camera performance for mobile
+                  photography.</a
+                >
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+            <a href="#"><img
+                src="./img/TVS (8).png"
+                class="product-images"
+                alt="article"
+              /></a>
+          <div class="contents">
+            <div class="description">
+              <h2>
+                <a href="#">
+                  Composite image between the Pixel 8a in the hand and the
+                  iPhone SE (2022) in the hand. I shot over 200 photos with the
+                  Pixel 8a vs iPhone SE — here’s the winner</a
+                >
+              </h2>
+              <h4>
+                <a href="#"
+                  >By John Velasco last updated 16 hours ago In this Pixel 8a vs
+                  iPhone SE photo shootout, we captured over 200 photos to
+                  determine which has the better camera performance for mobile
+                  photography.</a
+                >
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+            <a href="#"><img
+                src="./img/TVS (7).png"
+                class="product-images"
+                alt="article"
+              /></a>
+          <div class="contents">
+            <div class="description">
+              <h2>
+                <a href="#">
+                  Composite image between the Pixel 8a in the hand and the
+                  iPhone SE (2022) in the hand. I shot over 200 photos with the
+                  Pixel 8a vs iPhone SE — here’s the winner</a
+                >
+              </h2>
+              <h4>
+                <a href="#"
+                  >By John Velasco last updated 16 hours ago In this Pixel 8a vs
+                  iPhone SE photo shootout, we captured over 200 photos to
+                  determine which has the better camera performance for mobile
+                  photography.</a
+                >
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+            <a href="#"><img
+                src="./img/TVS (6).png"
+                class="product-images"
+                alt="article"
+              /></a>
+          <div class="contents">
+            <div class="description">
+              <h2>
+                <a href="#">
+                  Composite image between the Pixel 8a in the hand and the
+                  iPhone SE (2022) in the hand. I shot over 200 photos with the
+                  Pixel 8a vs iPhone SE — here’s the winner</a
+                >
+              </h2>
+              <h4>
+                <a href="#"
+                  >By John Velasco last updated 16 hours ago In this Pixel 8a vs
+                  iPhone SE photo shootout, we captured over 200 photos to
+                  determine which has the better camera performance for mobile
+                  photography.</a
+                >
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+            <a href="#"><img
+                src="./img/TVS (5).png"
+                class="product-images"
+                alt="article"
+              /></a>
+            <div class="contents">
+              <div class="description">
+                <h2>
+                  <a href="#">
+                    Composite image between the Pixel 8a in the hand and the
+                    iPhone SE (2022) in the hand. I shot over 200 photos with the
+                    Pixel 8a vs iPhone SE — here’s the winner</a
+                  >
+                </h2>
+                <h4>
+                  <a href="#"
+                    >By John Velasco last updated 16 hours ago In this Pixel 8a vs
+                    iPhone SE photo shootout, we captured over 200 photos to
+                    determine which has the better camera performance for mobile
+                    photography.</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="component">
+            <a href="#"><img
+                src="./img/TVS (4).png"
+                class="product-images"
+                alt="article"
+              /></a>
+            <div class="contents">
+              <div class="description">
+                <h2>
+                  <a href="#">
+                    Composite image between the Pixel 8a in the hand and the
+                    iPhone SE (2022) in the hand. I shot over 200 photos with the
+                    Pixel 8a vs iPhone SE — here’s the winner</a
+                  >
+                </h2>
+                <h4>
+                  <a href="#"
+                    >By John Velasco last updated 16 hours ago In this Pixel 8a vs
+                    iPhone SE photo shootout, we captured over 200 photos to
+                    determine which has the better camera performance for mobile
+                    photography.</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="component">
+            <a href="#"><img
+                src="./img/TVS (3).png"
+                class="product-images"
+                alt="article"
+              /></a>
+            <div class="contents">
+              <div class="description">
+                <h2>
+                  <a href="#">
+                    Composite image between the Pixel 8a in the hand and the
+                    iPhone SE (2022) in the hand. I shot over 200 photos with the
+                    Pixel 8a vs iPhone SE — here’s the winner</a
+                  >
+                </h2>
+                <h4>
+                  <a href="#"
+                    >By John Velasco last updated 16 hours ago In this Pixel 8a vs
+                    iPhone SE photo shootout, we captured over 200 photos to
+                    determine which has the better camera performance for mobile
+                    photography.</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+
+    <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>Download Our App</h3>
+              <p>Download App for Android and ios mobile phone.</p>
+            </div>
+            <div class="footer-col-2">
+              <p>
+                Our Purpose is to sustainably make the pleasure and benefits of
+                sports accessible to the many.
+              </p>
+            </div>
+            <div class="footer-col-3">
+              <h3>Useful Links</h3>
+              <ul>
+                <li>Coupons</li>
+                <li>Return Policy</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h3>Follow Us</h3>
+              <ul class="links">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/tuyubahe-ashrafu-2073482a4/"
+                    target="_blank"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/pranav301999" target="_blank"
+                    >Github</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <p class="copyright">copyright@Ashrafu001</p>
+        </div>
+      </div>
+  </body>
+</html>
